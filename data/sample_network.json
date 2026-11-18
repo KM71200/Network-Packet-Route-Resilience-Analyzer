@@ -1,0 +1,20 @@
+{
+    "name": "Common DAA PBL Sample Network",
+    "description": "Weighted directed graph used by all team members for initial development and integration.",
+    "nodes": ["A", "B", "C", "D", "E"],
+    "edges": [
+      {"source": "A", "destination": "B", "weight": 2},
+      {"source": "A", "destination": "C", "weight": 4},
+      {"source": "B", "destination": "C", "weight": 1},
+      {"source": "B", "destination": "D", "weight": 7},
+      {"source": "C", "destination": "D", "weight": 2},
+      {"source": "C", "destination": "E", "weight": 5},
+      {"source": "D", "destination": "E", "weight": 1}
+    ],
+    "defaults": {
+      "source": "A",
+      "destination": "E",
+      "k": 3
+    }
+  }
+  
